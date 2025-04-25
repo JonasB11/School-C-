@@ -9,11 +9,13 @@ using namespace std;
 int main()
 {
     string s1;
+    int anzahl;
 
 
 
     cout<<"Bitte Wort eingeben: ";
     cin>>s1;
+    anzahl=s1.length();
 
     cout<<"Der Satz lautet rueckwaerts:"<<endl;
 
@@ -21,5 +23,6 @@ int main()
 
     {
         cout<<s1[i];
+
     }
 }
