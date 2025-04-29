@@ -10,9 +10,9 @@ public:
     double preis, leistung;
 };
 
-// Funktion zum Eingeben der Kfz-Daten
 void kfzEingeben(CKfz &kfz) {
     cout << "Marke: ";
+    cin.ignore(); // Eingabepuffer leeren
     getline(cin, kfz.marke);
     cout << "Baujahr: ";
     cin >> kfz.bjahr;
