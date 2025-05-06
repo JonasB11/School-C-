@@ -7,6 +7,7 @@ class CBuch
   private:
     string verfasser, titel;
     int eJahr, invNr;
+
   public:
     void eingeben()
     {
